@@ -119,7 +119,7 @@ type LandingOneProps = {
           >
             <AspectRatio maxW="100%" height={"100%"} ratio={1}>
               <img
-                src="/portfolio/ascii_edited.gif"
+                src={`${import.meta.env.BASE_URL}ascii_edited.gif`}
                 alt="Animated Cat"
                 style={{
                   width: "100%",
@@ -163,7 +163,7 @@ type LandingOneProps = {
           >
             <AspectRatio maxW="100%" height={"100%"} ratio={1}>
               <img
-                src="/portfolio/ascii_edited.gif"
+                src={`${import.meta.env.BASE_URL}ascii_edited.gif`}
                 alt="Animated Cat"
                 style={{
                   width: "100%",
