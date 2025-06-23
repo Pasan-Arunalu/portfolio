@@ -1,8 +1,8 @@
-import { Box, Container, Icon, Image, Text, useMediaQuery,  Menu, Button, Portal } from "@chakra-ui/react";
-import dd from "./assets/dd2.svg";
-import close from "./assets/close.svg";
-import maxi from "./assets/maxi.svg";
-import mini from "./assets/mini.svg";
+import { Box, Image, Text, useMediaQuery,  Menu, Button, Portal } from "@chakra-ui/react";
+import dd from "../assets/dd2.svg";
+import close from "../assets/close.svg";
+import maxi from "../assets/maxi.svg";
+import mini from "../assets/mini.svg";
 
 function Navbar() {
   const [isMobile, isTablet, isDesktop] = useMediaQuery([
@@ -12,7 +12,7 @@ function Navbar() {
   ]);
 
   return (
-    <Box className="parentCont" background={"#121212"} height={"3.5rem"} roundedTop={"10px"} display={"flex"}>
+    <Box className="parentCont" background={"#121212"} height={"3.5rem"} roundedTop={"10px"} display={"flex"} borderColor={"white.500"} borderWidth={"2px"} borderBottom={"none"}>
       {isDesktop && (
         <>
           <Box
