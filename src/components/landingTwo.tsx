@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Box, Text, useMediaQuery } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 function LandingTwo() {
-  const [isMobile, isTablet, isDesktop] = useMediaQuery([
-    "(max-width: 480px)",
-    "(min-width: 481px) and (max-width: 1024px)",
-    "(min-width: 1025px)",
-  ]);
+  // const [isMobile, isTablet, isDesktop] = useMediaQuery([
+  //   "(max-width: 480px)",
+  //   "(min-width: 481px) and (max-width: 1024px)",
+  //   "(min-width: 1025px)",
+  // ]);
 
   const [lines, setLines] = useState<string[]>([]);
 
