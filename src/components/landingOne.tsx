@@ -93,29 +93,30 @@ type LandingOneProps = {
     <Box>
       {isDesktop && (
         <>
+        <Box
+          width="100%"
+          height="70vh"
+          display={"flex"}
+          borderColor="whiteAlpha.500"
+          borderWidth="1px"
+          borderBottomRadius="10px"
+
+        >
           <Box
-            width="100%"
+            width="70%"
             height="100%"
-            borderColor="whiteAlpha.500"
-            borderWidth="1px"
-            borderBottomRadius="10px"
             padding={5}
-            position={"relative"}
-            zIndex={"1"}
           >
             <Text fontFamily="monospace" whiteSpace="pre-line" color="green.200" fontSize="md">
               {renderLines.join("\n")}
             </Text>
           </Box>
 
+          {isTypingDone &&(
           <Box
-            position={"absolute"}
-            bottom={"40"}
-            right={"40"}
-            marginBottom={"8rem"}
+            alignSelf={"center"}
             height={"50vh"}
             width={"30vw"}
-            zIndex={"0"}
           >
             <AspectRatio maxW="100%" height={"100%"} ratio={1}>
               <img
@@ -129,6 +130,8 @@ type LandingOneProps = {
                 }}
               />
             </AspectRatio>
+          </Box>
+          )}
           </Box>
         </>
       )}
@@ -152,9 +155,10 @@ type LandingOneProps = {
             </Text>
           </Box>
 
+          {/* {isTypingDone &&(
           <Box
             position={"absolute"}
-            bottom={"20"}
+            bottom={"80"}
             right={"10"}
             marginBottom={"10rem"}
             height={"28vh"}
@@ -174,6 +178,7 @@ type LandingOneProps = {
               />
             </AspectRatio>
           </Box>
+          )} */}
         </>
       )}
     </Box>

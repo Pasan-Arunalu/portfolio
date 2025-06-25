@@ -8,7 +8,7 @@ function Landing() {
   return (
     <>
       <LandingOne onTypingComplete={() => setIsTypingDone(true)} />
-      {isTypingDone && <LandingTwo />}
+      <LandingTwo />
     </>
   );
 }

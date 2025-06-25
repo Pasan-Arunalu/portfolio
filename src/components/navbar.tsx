@@ -36,7 +36,7 @@ function Navbar() {
               cursor={"pointer"}
             >
               <Box width={"80%"}>
-                <Text fontSize={"12px"}>
+                <Text fontSize={"12px"} fontFamily="monospace">
                   Home
                 </Text>
               </Box>
@@ -58,7 +58,7 @@ function Navbar() {
               cursor={"pointer"}
             >
               <Box width={"70%"}>
-                <Text fontSize={"12px"}>
+                <Text fontSize={"12px"} fontFamily="monospace">
                   About
                 </Text>
               </Box>
@@ -80,7 +80,7 @@ function Navbar() {
               cursor={"pointer"}
             >
               <Box width={"70%"}>
-                <Text fontSize={"12px"}>
+                <Text fontSize={"12px"} fontFamily="monospace">
                   Skills
                 </Text>
               </Box>
@@ -102,7 +102,7 @@ function Navbar() {
               cursor={"pointer"}
             >
               <Box width={"70%"}>
-                <Text fontSize={"12px"}>
+                <Text fontSize={"12px"} fontFamily="monospace">
                   Projects
                 </Text>
               </Box>
@@ -124,7 +124,7 @@ function Navbar() {
               cursor={"pointer"}
             >
               <Box width={"70%"}>
-                <Text fontSize={"12px"}>
+                <Text fontSize={"12px"} fontFamily="monospace">
                   Contact
                 </Text>
               </Box>
@@ -177,7 +177,7 @@ function Navbar() {
                 cursor={"pointer"}
               >
                 <Box width={"80%"}>
-                  <Text fontSize={"12px"}>
+                  <Text fontSize={"12px"} fontFamily="monospace">
                     Home
                   </Text>
                 </Box>
