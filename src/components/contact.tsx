@@ -1,4 +1,4 @@
-import { Box, useMediaQuery, Button, Stack, Text, Image, HStack } from "@chakra-ui/react";
+import { Box, useMediaQuery, Button, Stack, Text, Image, } from "@chakra-ui/react";
 import ContactForm from "./contactForm";
 import Header from "./header";
 import ig from "../assets/Instagram_Glyph_White.png";

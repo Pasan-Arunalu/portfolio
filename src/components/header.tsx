@@ -1,5 +1,5 @@
 import close from "../assets/close.svg";
-import { Box, Text, Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 
 type HeaderProps = {
     title: string;

@@ -1,4 +1,4 @@
-import { Box, Text, useMediaQuery, Image, Grid, GridItem, Accordion, Span } from "@chakra-ui/react";
+import { Box, Text, useMediaQuery, Grid, GridItem, Accordion, Span } from "@chakra-ui/react";
 import Header from "./header";
 import HackerTerminal from "./hackerTerminal";
 

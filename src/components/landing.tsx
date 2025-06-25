@@ -3,7 +3,7 @@ import LandingOne from "./landingOne";
 import LandingTwo from "./landingTwo";
 
 function Landing() {
-  const [isTypingDone, setIsTypingDone] = useState(false);
+  const [, setIsTypingDone] = useState(false);
 
   return (
     <>
